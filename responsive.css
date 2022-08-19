@@ -1,0 +1,60 @@
+/* STYLE SECTIONING TAGS */
+* {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
+}
+
+body,
+html {
+  margin: 1%;
+  height: 100%;
+}
+
+/* STYLE TEXT */
+.subtitle {
+  text-align: center; 
+}
+
+/* STYLE SECTIONING TAGS */
+* {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
+}
+
+body,
+html {
+  margin: 1%;
+  height: 100%;
+}
+
+/* STYLE TEXT */
+.subtitle {
+  text-align: center; 
+}
+
+/*STYLE IMAGES*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.flex-item {
+  flex-basis: auto;
+  margin: 1%;
+}
+
+img {
+  width: 100%;
+}
+
+/* CHANGE CSS BASED ON SCREEN SIZE*/
+ /*Breakpoint 1*/
+@media screen and (max-width: 850px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+}
+
+
+

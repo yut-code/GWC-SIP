@@ -1,4 +1,3 @@
-/*Add your JavaScript here*/
 var folkloreScore = 0;
 var evermoreScore = 0;
 var questionCount = 0;
